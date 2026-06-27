@@ -1,0 +1,28 @@
+# Environments
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/venv/
+
+# Docker volumes
+postgres_data/
+redis_data/
+docker/nginx/logs/
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
